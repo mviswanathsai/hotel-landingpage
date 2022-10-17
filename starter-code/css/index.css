@@ -1,0 +1,118 @@
+
+body {
+  color: white;
+  height: 100%;
+  font-family: 'Bellefair', serif;
+
+}
+
+h1 {
+  font-size: 150px;
+}
+
+
+h5 {
+  font-size: 28px;
+  letter-spacing: 4.75;
+}
+
+p{
+  font-family: "Times New Roman", serif;
+}
+
+hr {
+  width: 25%;
+  background-color: white;
+  height: 1px;
+  position: absolute;
+  left: 6rem;
+}
+
+.parent {
+  display: inline-block;
+  position: relative;
+  margin-left: 8rem;
+  margin-top: 10rem;
+}
+
+.description {
+  width: 0;
+  min-width: 100%;
+}
+
+.explore {
+  border-radius: 50%;
+  position: relative;
+  width: 15.625rem;
+  height: 15.625rem;
+  left: 12rem;
+  top: 14rem;
+  display: block;
+
+}
+
+header{
+  margin: 0;
+}
+
+
+.container{
+ margin-right: 0;
+ padding: 0;
+}
+nav{
+  padding: 3rem 2.5rem;
+}
+.nav-list{
+  float: right;
+  list-style: none;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 2rem 8rem;
+  padding-left: 20rem;
+
+}
+.nav-item {
+  display: inline-block;
+  margin-left: 2rem;
+  text-decoration: none;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.logo{
+  position: absolute;
+  left: 3rem;
+  top: 3.5rem;
+}
+
+
+.bg {
+  /* Full height */
+  height: 100%;
+  width: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  z-index: -3;
+}
+
+@media (max-width: 701px){
+hr{
+  visibility: hidden;
+}
+.parent{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.row{
+  text-align: center;
+}
+}
+
+.col{
+  text-align: center;
+}

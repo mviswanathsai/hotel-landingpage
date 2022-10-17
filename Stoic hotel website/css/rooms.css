@@ -1,0 +1,32 @@
+body{
+  background-color: #E8DED1;
+}
+
+
+.rooms{
+  display: grid;
+  margin-top: 8rem;
+}
+
+.room{
+  background-color: #C8AD7E;
+  margin: 1.5rem 0;
+  display: grid;
+  grid-template-columns: 25% 75%;
+}
+
+.room-text{
+  padding: 4rem;
+  text-align: right;
+  color: white;
+}
+
+.room-icon{
+  padding: 5rem;
+  margin: auto;
+}
+
+.fa{
+  font-size: 3.5rem;
+  color: white;
+}
